@@ -15,13 +15,15 @@ compatibility: >
   in any browser via its built-in download button. macOS uses sips for cropping,
   other platforms need Pillow. All identity/brand/output values come from CLI
   flags — no personal paths are hard-coded.
+depends_on:
+  - lov-branding-consistency
 metadata:
   author: contributors
-  version: "0.2.0"
+  version: "0.2.1"
   tags: business-card, design, branding, png, html
 ---
 
-# business-card — 专业精美电子名片生成器
+# 名片工坊 · Business Card Studio
 
 把任意用户的身份信息，渲染成一张 2:1 的编辑式（editorial / luxury-minimal）名片：
 瑞士排版网格、发丝线分隔、单一强调色、宋体 × Didot 字体配对。输出高分辨率 PNG
